@@ -1,0 +1,85 @@
+<div class="min-h-screen bg-neutral-950 text-neutral-100">
+  <!-- subtle background glow -->
+  <div class="pointer-events-none fixed inset-0">
+    <div
+      class="absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-indigo-500/20 blur-3xl"
+    ></div>
+    <div class="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-emerald-500/10 blur-3xl"></div>
+  </div>
+
+  <div class="relative mx-auto flex min-h-screen max-w-6xl items-center justify-center px-6 py-10">
+    <div class="w-full max-w-md">
+      <!-- Brand -->
+      <div class="mb-6 text-center">
+        <div
+          class="mx-auto flex h-12 w-12 items-center justify-center rounded-xl border border-neutral-800 bg-neutral-900/40"
+        >
+          <span class="text-indigo-400 font-semibold">P</span>
+        </div>
+        <h1 class="mt-4 text-2xl font-semibold tracking-tight">Welcome back</h1>
+        <p class="mt-2 text-sm text-neutral-400">
+          Sign in to manage your workspace in <span class="text-indigo-400">ProBoard</span>.
+        </p>
+      </div>
+
+      <!-- Card -->
+      <div class="rounded-2xl border border-neutral-800 bg-neutral-900/40 p-6 shadow-sm">
+        <form class="space-y-4">
+          <!-- Email -->
+          <div class="space-y-2">
+            <label class="text-sm text-neutral-300">Email</label>
+            <input
+              type="email"
+              placeholder="you@company.com"
+              class="w-full rounded-xl border border-neutral-800 bg-neutral-950/60 px-3 py-2 text-sm outline-none placeholder:text-neutral-600 focus:border-indigo-500/60 focus:ring-2 focus:ring-indigo-500/20"
+            />
+          </div>
+
+          <!-- Password -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="text-sm text-neutral-300">Password</label>
+              <a class="text-xs text-neutral-400 hover:text-neutral-200" href="#"> Forgot? </a>
+            </div>
+            <input
+              type="password"
+              placeholder="••••••••"
+              class="w-full rounded-xl border border-neutral-800 bg-neutral-950/60 px-3 py-2 text-sm outline-none placeholder:text-neutral-600 focus:border-indigo-500/60 focus:ring-2 focus:ring-indigo-500/20"
+            />
+          </div>
+
+          <!-- Remember -->
+          <label class="flex items-center gap-2 text-sm text-neutral-400">
+            <input
+              type="checkbox"
+              class="h-4 w-4 rounded border-neutral-700 bg-neutral-950 text-indigo-500 focus:ring-indigo-500/30"
+            />
+            Remember me
+          </label>
+
+          <!-- CTA -->
+          <button
+            type="button"
+            class="w-full rounded-xl bg-indigo-500 px-4 py-2 text-sm font-semibold text-neutral-950 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30"
+          >
+            Sign in
+          </button>
+
+          <!-- Secondary -->
+          <button
+            type="button"
+            class="w-full rounded-xl border border-neutral-800 bg-neutral-950/40 px-4 py-2 text-sm font-semibold text-neutral-100 hover:bg-neutral-900/60"
+          >
+            Continue as demo
+          </button>
+        </form>
+      </div>
+
+      <!-- Footer -->
+      <p class="mt-6 text-center text-xs text-neutral-500">
+        By continuing you agree to our
+        <a class="text-neutral-300 hover:text-neutral-100" href="#">Terms</a>.
+      </p>
+    </div>
+  </div>
+</div>
